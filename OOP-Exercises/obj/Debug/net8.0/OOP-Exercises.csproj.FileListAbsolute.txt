@@ -1,0 +1,15 @@
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/bin/Debug/net8.0/OOP-Exercises
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/bin/Debug/net8.0/OOP-Exercises.deps.json
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/bin/Debug/net8.0/OOP-Exercises.runtimeconfig.json
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/bin/Debug/net8.0/OOP-Exercises.dll
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/bin/Debug/net8.0/OOP-Exercises.pdb
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/obj/Debug/net8.0/OOP-Exercises.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/obj/Debug/net8.0/OOP-Exercises.AssemblyInfoInputs.cache
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/obj/Debug/net8.0/OOP-Exercises.AssemblyInfo.cs
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/obj/Debug/net8.0/OOP-Exercises.csproj.CoreCompileInputs.cache
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/obj/Debug/net8.0/OOP-Exercises.sourcelink.json
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/obj/Debug/net8.0/OOP-Exercises.dll
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/obj/Debug/net8.0/refint/OOP-Exercises.dll
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/obj/Debug/net8.0/OOP-Exercises.pdb
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/obj/Debug/net8.0/OOP-Exercises.genruntimeconfig.cache
+/Users/liltorp/RiderProjects/oop-exercises/OOP-Exercises/obj/Debug/net8.0/ref/OOP-Exercises.dll
