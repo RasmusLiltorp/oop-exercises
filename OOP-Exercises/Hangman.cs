@@ -5,7 +5,7 @@ public class Hangman
         Console.WriteLine("Welcome to Hangman! Input secret word");
 
         string hangmanWord = Console.ReadLine();
-        char[] gussedChars = new char[hangmanWord.Length];
+        char[] guessedChars = new char[hangmanWord.Length];
 
         int livesLeft = 5;
         bool isPlaying = true;
@@ -16,28 +16,28 @@ public class Hangman
 
         while (isPlaying)
         {
-            Console.WriteLine("Guess a secret word. You have " + livesLeft + " lives left.");  
+            Console.WriteLine("Guess the secret word. You have " + livesLeft + " lives left.");  
             string currentGuess = receiveGuess();
             
             if (hangmanWord.Contains(currentGuess))
             {
-                // add currentGuess to guessedChars array
+                // Add currentGuess to guessedChars array
                 for (int i = 0; i < hangmanWord.Length; i++)
                 {
                     if (hangmanWord[i] == currentGuess[0])
                     {
-                        gussedChars[i] = currentGuess[0];
+                        guessedChars[i] = currentGuess[0];
                     }
                 }
-                Console.WriteLine("Correct guess! Current progress: " + new string(gussedChars));
+                Console.WriteLine("Correct guess! Current progress: " + new string(guessedChars));
             }
             else
             {
                 Console.WriteLine("Incorrect guess.");
-                
                 livesLeft--;
             }
-            if (new string(gussedChars) == hangmanWord)
+
+            if (new string(guessedChars) == hangmanWord)
             {
                 Console.WriteLine("You win the game!");
                 isPlaying = false;
@@ -46,28 +46,24 @@ public class Hangman
             if (livesLeft <= 0)
             {
                 Console.WriteLine("You lose the game!");
-                Console.WriteLine("Answer was:" + new string(hangmanWord));
+                Console.WriteLine("The answer was: " + hangmanWord);
                 isPlaying = false;
             }
-
         }
     }
+
     public static string receiveGuess()
     {
-        bool guessing = true;
-        string guess = Console.ReadLine();     
-        while (guessing)
+        string guess;
+        do
         {
-            if (guess.Length > 1)                                                   
-            {                                                                       
-                Console.WriteLine("Length must be just one character at a time.");
-                guessing = false;
-            }                                                                       
-            else if (guess.Length == 1)
+            guess = Console.ReadLine();
+            if (guess.Length != 1)
             {
-                guessing = false;
+                Console.WriteLine("Input must be a single character.");
             }
-        }
-        return guess;     
+        } while (guess.Length != 1);
+
+        return guess;
     }
 }
