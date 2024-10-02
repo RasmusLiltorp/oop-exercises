@@ -1,4 +1,5 @@
-﻿class Program
+﻿/*
+class Program
 {
     static void Main(string[] args)
     {
@@ -45,3 +46,4 @@ public class AvgGradeError
         return count > 0 ? (double)sum / count : 0;
     }
 }
+*/

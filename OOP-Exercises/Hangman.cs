@@ -1,3 +1,5 @@
+/*
+ 
 public class Hangman
 {
     public static void Main(string[] args)
@@ -67,3 +69,4 @@ public class Hangman
         return guess;
     }
 }
+*/
