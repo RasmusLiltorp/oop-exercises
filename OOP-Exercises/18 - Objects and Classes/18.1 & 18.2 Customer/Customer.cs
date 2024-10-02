@@ -13,7 +13,7 @@ public class Customer
         balance = 0;
     }
 
-    public void balaceID(string nameInput, int idInput, double balanceInput)
+    public void balanceID(string nameInput, int idInput, double balanceInput)
     {
         name = nameInput;
         id = idInput;
