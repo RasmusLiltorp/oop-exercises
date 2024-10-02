@@ -1,4 +1,4 @@
-namespace OOP_Exercises._18._1_Customer;
+/*namespace OOP_Exercises._18._1_Customer;
 
 public class Program
 {
@@ -27,3 +27,4 @@ public class Program
 
     }
 }
+*/

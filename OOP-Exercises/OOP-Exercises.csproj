@@ -8,4 +8,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="18 - Objects and Classes\18.3 - Colors (RGB to HSV)\" />
+    </ItemGroup>
+
 </Project>

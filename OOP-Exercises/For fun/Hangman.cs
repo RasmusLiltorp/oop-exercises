@@ -1,5 +1,4 @@
-/*
- 
+
 public class Hangman
 {
     public static void Main(string[] args)
@@ -9,12 +8,13 @@ public class Hangman
         string hangmanWord = Console.ReadLine();
         char[] guessedChars = new char[hangmanWord.Length];
 
-        int livesLeft = 5;
+        int livesLeft = 10;
         bool isPlaying = true;
-        Console.WriteLine("Input a single letter");
-        Console.WriteLine("Word length: " + hangmanWord.Length);
         
         Console.Clear();
+        
+        Console.WriteLine("Input a single letter");
+        Console.WriteLine("Word length: " + hangmanWord.Length);
 
         while (isPlaying)
         {
@@ -69,4 +69,3 @@ public class Hangman
         return guess;
     }
 }
-*/
