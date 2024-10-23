@@ -1,5 +1,4 @@
 namespace OOP_Exercises._19___Lagersystem;
-
 public class Program
 {
     static void Main(string[] args)
@@ -21,7 +20,6 @@ public class Program
         {
             Console.WriteLine(item1.ToString());
         }
-        
         Console.WriteLine("Enter material information");
         NonFoodItem[] nonFoodItems = new NonFoodItem[1];
         for (int i = 0; i < nonFoodItems.Length; i++)
@@ -40,5 +38,10 @@ public class Program
         }
         
         
+        Item[] items = new Item[foodItems.Length + nonFoodItems.Length];
+        foodItems.CopyTo(items, 0);  // Copy food items to the combined array
+        nonFoodItems.CopyTo(items, foodItems.Length);  // Copy non-food items to the combined array
+        
     }
+    
 }
